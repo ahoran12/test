@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Menu&nbsp;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../../../Desktop/Portfolio/Home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../../Desktop/Portfolio/resume.html">Resume</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More&nbsp; </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../../../Desktop/Portfolio/Projects.html">Projects</a>
+              <a class="dropdown-item" href="../../../Desktop/Portfolio/Poppy.html">Poppy</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <section>
+      <div class="jumbotron text-center mt-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-10">
+              <h1>Amore Horan</h1>
+              <p>I am a fourth-year computational media major with an interest in analytics. I am creative and data-driven. When I'm not busy with work you can most likely find me on a plane with my dog Poppy.</p>
+			  <h></h>
+			  <p>This website serves as a versatile hub where I showcase my projects, share my resume, and offer insights into who I am.</p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Check Out Where I've Traveled</h2>
+            <p>Currently attempting to visit all the countries Delta flys to!&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-12 text-center">
+            <img class="img-fluid" src="../../../Desktop/Portfolio/images/IMG_0622.jpg" alt="">
+            <h4>My Most Recent Trip</h4>
+            <h6>Japan</h6>
+          </div>
+          <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+            <img class="img-fluid" src= "../../../Desktop/Portfolio/images/IMG_9336.jpg" alt="">
+            <h4>The First Trip I ever Took</h4>
+            <h6>France</h6>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <hr>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../../Desktop/js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../../Desktop/js/popper.min.js"></script>
+    <script src="../../../Desktop/js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
